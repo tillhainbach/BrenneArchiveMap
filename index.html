@@ -1,0 +1,194 @@
+<html>
+<head>
+    <title>VEJonline Map!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="./node_modules/leaflet.markercluster/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="./node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+    <link rel="stylesheet" href="./node_modules/leaflet-sidebar-v2/css/leaflet-sidebar.css"/>
+    <link rel="stylesheet" href="./node_modules/leaflet-search/src/leaflet-search.css"/>
+    <script src="./node_modules/leaflet/dist/leaflet.js"></script>
+    <script src="./node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/leaflet-sidebar-v2/js/leaflet-sidebar.js"></script>
+    <script src="./src/js/leaflet-search.js"></script>
+    <style>
+
+      #map{ height:  100% }
+
+      .leaflet-sidebar-tabs > li.active, .leaflet-sidebar-tabs > ul > li.active {
+        background-color: #fae73e;
+      }
+      .leaflet-sidebar-header {
+        background-color: #fae73e;
+      }
+    </style>
+</head>
+<body>
+  <div id="sidebar" class="leaflet-sidebar collapsed">
+    <!-- Navigation tabs -->
+    <div class="leaflet-sidebar-tabs">
+      <ul role="tablist">
+        <li>
+          <a href="#home" role="tab"><i class="fa fa-bars"></i></a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!-- Tab panes -->
+    <div class="leaflet-sidebar-content">
+      <div class="leaflet-sidebar-pane" id="home">
+        <h1 class="leaflet-sidebar-header">
+          <span class="leaflet-sidebar-close"><i class="fa fa-caret-right"></i></span>
+        </h1>
+        <div class="documentTitle"></div>
+        <div class="documentLocation"></div>
+        <div class="documentNumber"></div>
+
+      </div>
+    </div>
+  </div>
+
+    <div id="map"></div>
+
+
+    <script>
+
+  // initialize the map
+  var map = L.map('map').setView([51.0, 10.0], 6);
+  map.doubleClickZoom.disable();
+
+  // load a tile layer
+  var tileLayer = L.tileLayer(
+      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.",
+      "detectRetina": false,
+      "maxNativeZoom": 18,
+      "maxZoom": 15,
+      "minZoom": 5,
+      "noWrap": false,
+      "opacity": 1,
+      "subdomains": "abc",
+      "tms": false}
+  ).addTo(map);
+
+  // add a layer group, yet empty
+  var markersLayer = new L.LayerGroup();
+  map.addLayer(markersLayer);
+
+  var clusters = L.markerClusterGroup({
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: false
+  });
+  clusters.on('clusterclick', function (a) {
+     a.layer.zoomToBounds({padding: [20, 20]});
+   });
+
+  // add sidebar
+  var sidebar = L.control
+    .sidebar({container: "sidebar",
+              position: "right"
+            })
+    .addTo(map);
+
+  // load GeoJson from file
+  function getdocumentKeysfromGeoJson(feature){
+    var outTitle = feature.properties.documentKeys[0].documentSubkeys.join();
+    return outTitle;
+  }
+
+  function startFilter(callback) {
+    $.getJSON("./data/testDocuments.geojson", callback);
+  }
+
+  var data;
+  startFilter(function(json) {
+      data = json;
+      var documentIcon = L.icon({
+          iconUrl: './resources/document.png',
+          iconSize: [30,30]
+        });
+
+      // add GeoJSON layer to the map once the file is loaded
+      var documents = L.geoJson(data ,{
+        onEachFeature: onEachFeature,
+        pointToLayer: function(feature, latlng){
+          var marker = L.marker(latlng, {title:getdocumentKeysfromGeoJson(feature), icon: documentIcon});
+          marker.bindPopup(marker.options.title);
+          return marker;
+        }
+
+      });
+
+        function onEachFeature(feature, layer){
+          layer.on('click', function(e) {
+            map.setView(e.latlng);
+            sidebar.open("home");
+            $(".documentTitle").html(feature.properties.documentTitle);
+            $(".documentLocation").html(feature.properties.documentLocation);
+            $(".documentNumber").html(feature.properties.documentNumber);
+          })
+          layer.on('dblclick', function(e) {
+            map.setView(e.latlng, tileLayer.options.maxZoom);
+          })
+        }
+
+        clusters.addLayer(documents);
+        markersLayer.addLayer(clusters);
+  });
+
+  // Object.filter = function( obj, predicate) {
+  //     var result = {}, key;
+  //     // ---------------^---- as noted by @CMS,
+  //     //      always declare variables with the "var" keyword
+  //
+  //     for (key in obj) {
+  //         if (obj.hasOwnProperty(key) && predicate(obj[key])) {
+  //           console.log(obj[key].layer.options.title);
+  //             result[key] = obj[key];
+  //         }
+  //     }
+  //
+  //     return result;
+  // };
+
+
+  const MultipleResultsLeafletSearch = L.Control.Search.extend({
+   // _defaultFilterData: (text, records) => records,
+  //  _defaultFormatData: json => json,
+  _getLocation: function(key) {
+    markersLayer.clearLayers();
+    console.log(this._recordsCache);
+    loca = this._recordsCache.filter(function (obj) {
+      return obj.layer.options.title === key;
+    });
+    console.log(loca)
+    for(i in loca) {
+       markersLayer.addLayer(loca[i].layer);
+     }
+    // marker = new L.Marker(new L.latLng(loca));
+    // marker.bindPopup('title: ');
+    // map.addLayer(marker);
+    return loca[0].loc;
+    },
+  })
+
+  const searchControl = new MultipleResultsLeafletSearch({
+    layer: markersLayer,
+    text:'Color...',
+    markerLocation: false,
+    animate: false,
+  });
+  map.addControl(searchControl);
+
+  searchControl.on('search:collapsed', function(e) {
+    console.log('event' + e);
+    markersLayer.clearLayers();
+    markersLayer.addLayer(clusters);
+  })
+
+
+  </script>
+</body>
+</html>

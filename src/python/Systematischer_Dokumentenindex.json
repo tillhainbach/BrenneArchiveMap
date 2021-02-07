@@ -1,0 +1,1206 @@
+[
+  {
+    "documentKey": "Alte Menschen",
+    "documentNumbers": [
+      101,
+      281,
+      304,
+      306,
+      312,
+      324,
+      326
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Antisemitismus / Diffamierung der Juden",
+    "documentNumbers": [
+      210,
+      240,
+      250
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "als beherrschend / Drahtzieher in WirtschaftKultur",
+        "documentNumbers": [
+          61,
+          76,
+          186,
+          268
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "als Kriegstreiber / Feinde",
+        "documentNumbers": [
+          37,
+          46,
+          54,
+          139,
+          183,
+          223
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "als Schmarotzer / Ungeziefer ,",
+        "documentNumbers": [
+          110,
+          120,
+          195
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "als verschlagen , hinterh\u00e4ltig",
+        "documentNumbers": [
+          118,
+          221,
+          319
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Ausland / Reaktionen",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "Berichte \u00fcber Verfolgung / Deportationen",
+        "documentNumbers": [
+          19,
+          245,
+          289,
+          292
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Berichte \u00fcber Vernichtung der Juden",
+        "documentNumbers": [
+          148,
+          174,
+          179,
+          204
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Deutsche Reaktion / Verschleierung",
+        "documentNumbers": [
+          192,
+          212
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Proteste / m\u00f6gliche Interventionen",
+        "documentNumbers": [
+          160,
+          179,
+          197,
+          202,
+          203,
+          245
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Bev\u00f6lkerungspolitik / Umsiedlungspl\u00e4ne",
+    "documentNumbers": [
+      130,
+      195,
+      243,
+      263,
+      277
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Bildung / Kultur / Kunst",
+    "documentNumbers": [
+      288,
+      310,
+      313,
+      316,
+      322,
+      323,
+      327
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Christen , \u201e nichtarische \u201c",
+    "documentNumbers": [
+      17,
+      33,
+      54,
+      63,
+      99,
+      233,
+      276
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Deportationen",
+    "documentNumbers": [
+      1,
+      8,
+      19,
+      126,
+      187,
+      229
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "Abholung / Transport ins Sammellager",
+        "documentNumbers": [
+          14,
+          16,
+          32,
+          64,
+          91,
+          108,
+          116,
+          140,
+          209,
+          218,
+          241
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Abschied",
+        "documentNumbers": [
+          30,
+          34,
+          125,
+          142,
+          151,
+          152,
+          163,
+          178,
+          227,
+          235,
+          259,
+          260,
+          279,
+          299,
+          309,
+          310,
+          317
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "von alten / kranken Menschen",
+        "documentNumbers": [
+          123,
+          124,
+          127,
+          150,
+          296,
+          301,
+          324
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "von Arbeitskr\u00e4ften",
+        "documentNumbers": [
+          89,
+          100,
+          237
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Ausweichstrategien / Fluchtversuche",
+        "documentNumbers": [
+          38,
+          102,
+          156,
+          161,
+          185,
+          189,
+          231,
+          319
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Durchf\u00fchrung",
+        "documentNumbers": [
+          24,
+          42,
+          48,
+          59,
+          60,
+          80,
+          94,
+          128,
+          131,
+          140,
+          141,
+          143,
+          194,
+          249,
+          257,
+          283,
+          300
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "\u201e Fabrik - Aktion \u201c",
+        "documentNumbers": [
+          226,
+          227,
+          231,
+          232,
+          236,
+          238
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "international",
+        "documentNumbers": [
+          19,
+          65,
+          146,
+          239
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Nachrichten aus / Vorstellungen von",
+        "documentNumbers": [
+          41,
+          51,
+          80,
+          109,
+          111,
+          116,
+          150,
+          159,
+          165,
+          207,
+          208,
+          209,
+          250,
+          262,
+          278,
+          301,
+          329
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Organisation",
+        "documentNumbers": [
+          3,
+          6,
+          22,
+          39,
+          44,
+          72,
+          83,
+          103,
+          119,
+          245,
+          281,
+          305,
+          325
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Planung",
+        "documentNumbers": [
+          47,
+          55,
+          65,
+          146,
+          243,
+          244,
+          256,
+          293
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Protest / Ablehnung",
+        "documentNumbers": [
+          16,
+          21,
+          29,
+          165,
+          166,
+          236
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Sammellager",
+        "documentNumbers": [
+          78,
+          80,
+          94,
+          98,
+          123,
+          140,
+          190,
+          230
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Verm\u00f6gensverwertung",
+        "documentNumbers": [
+          31,
+          53,
+          62,
+          83,
+          107,
+          115,
+          143,
+          158,
+          253,
+          256,
+          302
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Vorbereitungen",
+        "documentNumbers": [
+          27,
+          81,
+          96,
+          172,
+          190,
+          249,
+          260
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Zur\u00fcckstellungen",
+        "documentNumbers": [
+          10,
+          17,
+          228,
+          271,
+          274,
+          281
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Emigration / Flucht",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "Auswanderungsverbot",
+        "documentNumbers": [
+          41,
+          199,
+          234
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Auswanderungsversuche / Selbstzeugnisse",
+        "documentNumbers": [
+          7,
+          15,
+          18,
+          64,
+          246,
+          252
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Flucht / Fluchtversuche",
+        "documentNumbers": [
+          102,
+          154,
+          162,
+          189,
+          211,
+          284
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "\u201c",
+        "documentNumbers": [],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Anweisungen",
+        "documentNumbers": [
+          171,
+          176,
+          192,
+          234
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Aufruf zur Vernichtung",
+        "documentNumbers": [
+          37,
+          110
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Entscheidungen",
+        "documentNumbers": [
+          55,
+          75,
+          217
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "international",
+        "documentNumbers": [
+          46,
+          50,
+          52,
+          118,
+          146,
+          148,
+          153,
+          160,
+          176,
+          179,
+          188,
+          217,
+          239
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Planung",
+        "documentNumbers": [
+          47,
+          65,
+          85,
+          92,
+          97,
+          130,
+          182,
+          200,
+          239
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Enteignung",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "Beschlagnahme",
+        "documentNumbers": [
+          48,
+          57,
+          62,
+          80,
+          122,
+          144,
+          150,
+          167,
+          261,
+          303
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Diebstahl / Bereicherung",
+        "documentNumbers": [
+          36,
+          45,
+          86,
+          102,
+          200,
+          286
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Verm\u00f6genserfassung",
+        "documentNumbers": [
+          31,
+          39,
+          44,
+          116,
+          146,
+          253
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Versteigerungen",
+        "documentNumbers": [
+          133,
+          201,
+          209
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Vorschriften / Bestimmungen",
+        "documentNumbers": [
+          31,
+          43,
+          44,
+          49,
+          242,
+          256,
+          302
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Wohnungen / Grundst\u00fccke",
+        "documentNumbers": [
+          53,
+          107,
+          112,
+          132,
+          200,
+          224,
+          253,
+          280,
+          286
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Entrechtung",
+    "documentNumbers": [
+      1,
+      26,
+      28,
+      120,
+      181,
+      216,
+      241,
+      242,
+      270,
+      291,
+      300,
+      308
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "\u201e Geltungsjuden \u201c",
+        "documentNumbers": [
+          87,
+          97,
+          182,
+          196,
+          258
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Kennzeichnung",
+        "documentNumbers": [
+          5,
+          37,
+          95,
+          113,
+          116,
+          177,
+          198,
+          249
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Verkehr / Mobilit\u00e4t",
+        "documentNumbers": [
+          111,
+          114,
+          248
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Versorgung",
+        "documentNumbers": [
+          4,
+          5,
+          81,
+          134,
+          168,
+          183,
+          225,
+          265
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Wohnung",
+        "documentNumbers": [
+          40,
+          66,
+          95,
+          112
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Erfassung ( der Juden )",
+    "documentNumbers": [
+      196,
+      226,
+      239
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Gewalt",
+    "documentNumbers": [
+      12,
+      23,
+      105,
+      230,
+      289
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Haltung der Nichtjuden",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "deutsche Bev\u00f6lkerung",
+        "documentNumbers": [
+          5,
+          14,
+          21,
+          29,
+          33,
+          53,
+          58,
+          67,
+          115,
+          138,
+          162,
+          165,
+          166,
+          173,
+          218,
+          232,
+          236
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "tschechische Bev\u00f6lkerung",
+        "documentNumbers": [
+          245,
+          247,
+          249,
+          255,
+          269,
+          272,
+          280,
+          283,
+          300,
+          301
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Hilfe f\u00fcr Juden",
+    "documentNumbers": [
+      30,
+      33,
+      90,
+      99,
+      164,
+      179,
+      237,
+      250,
+      276,
+      290,
+      311
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "Fluchthilfe siehe Flucht / Fluchtversuche",
+        "documentNumbers": [],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Hinrichtungen",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "von Juden",
+        "documentNumbers": [
+          23,
+          117,
+          119,
+          292,
+          300
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "von nichtj\u00fcdischen Tschechen",
+        "documentNumbers": [
+          288,
+          289,
+          295
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Inhaftierung",
+    "documentNumbers": [],
+    "documentSubkeys": [
+      {
+        "documentKey": "Gef\u00e4ngnis",
+        "documentNumbers": [
+          68,
+          116,
+          191,
+          220,
+          221
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Konzentrationslager / Arbeitslager",
+        "documentNumbers": [
+          45,
+          69,
+          105,
+          226,
+          245,
+          275
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "J\u00fcdische Verwaltung / Gemeinden /Institutionen",
+    "documentNumbers": [
+      18,
+      81,
+      100,
+      124,
+      135,
+      178,
+      271,
+      312,
+      314,
+      321
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "als Empf\u00e4nger / \u00dcbermittler von",
+        "documentNumbers": [
+          6,
+          79,
+          117,
+          119,
+          137,
+          161,
+          190,
+          196,
+          254,
+          297,
+          305,
+          318
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Justiz",
+    "documentNumbers": [
+      88,
+      120,
+      169,
+      181,
+      211,
+      220,
+      221,
+      273,
+      311,
+      319
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Kenntnis vom Massenmord",
+    "documentNumbers": [
+      8,
+      23,
+      56,
+      58,
+      59,
+      67,
+      77,
+      91,
+      104,
+      131,
+      138,
+      166,
+      176,
+      180,
+      193,
+      205,
+      214,
+      236,
+      237,
+      238,
+      262
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "international",
+        "documentNumbers": [
+          135,
+          145,
+          148,
+          160,
+          173,
+          174,
+          179,
+          197,
+          202,
+          203,
+          204,
+          206,
+          294
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Kinder / Jugendliche",
+    "documentNumbers": [
+      101,
+      126,
+      137,
+      139,
+      168,
+      170,
+      194,
+      213,
+      220,
+      234,
+      237,
+      255,
+      291,
+      315,
+      322
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "Selbstzeugnisse",
+        "documentNumbers": [
+          1,
+          78,
+          260,
+          267,
+          287,
+          295,
+          323
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Kirchen",
+    "documentNumbers": [
+      21,
+      29,
+      33,
+      54,
+      63,
+      68,
+      70,
+      85,
+      99,
+      204,
+      205,
+      206,
+      214,
+      229,
+      233,
+      276,
+      280
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Kranke Menschen",
+    "documentNumbers": [
+      127,
+      135,
+      161,
+      167,
+      168,
+      183,
+      265,
+      298,
+      303,
+      304,
+      315,
+      324,
+      326
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Kriegsgefangene",
+    "documentNumbers": [
+      12,
+      25,
+      42
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Kriegsverbrechen",
+    "documentNumbers": [
+      16,
+      25,
+      29,
+      77,
+      295
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Leben im Untergrund",
+    "documentNumbers": [
+      149,
+      154,
+      156,
+      311
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Lebensbedingungen im Getto",
+    "documentNumbers": [
+      80,
+      274,
+      285,
+      297,
+      298,
+      303,
+      304,
+      306,
+      312,
+      313,
+      315,
+      316,
+      320,
+      321,
+      323,
+      326,
+      327,
+      329
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "\u201c / \u201e Mischehe \u201c",
+        "documentNumbers": [],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Rechtsstatus / Petitionen",
+        "documentNumbers": [
+          71,
+          73,
+          82,
+          93,
+          126,
+          251,
+          258
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Selbstzeugnisse",
+        "documentNumbers": [
+          63,
+          68,
+          215
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "staatliche Ma\u00dfnahmen",
+        "documentNumbers": [
+          84,
+          87,
+          97,
+          182,
+          184,
+          219,
+          225,
+          233,
+          266,
+          305,
+          307
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "\u201c",
+        "documentNumbers": [
+          35,
+          258,
+          328
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  },
+  {
+    "documentKey": "Sinti und Roma",
+    "documentNumbers": [
+      3,
+      22,
+      169,
+      246
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Soziale Ausgrenzung",
+    "documentNumbers": [
+      9,
+      11,
+      20,
+      54,
+      61,
+      70,
+      74,
+      106,
+      111
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Suizid",
+    "documentNumbers": [
+      17,
+      25,
+      32,
+      64,
+      88,
+      108,
+      128,
+      147,
+      172,
+      198,
+      207,
+      209,
+      218,
+      241,
+      304
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Wehrmacht",
+    "documentNumbers": [
+      29,
+      77,
+      184,
+      219,
+      261
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Widerstand",
+    "documentNumbers": [
+      117,
+      138,
+      154,
+      157,
+      275,
+      283,
+      287
+    ],
+    "documentSubkeys": []
+  },
+  {
+    "documentKey": "Zwangsarbeit",
+    "documentNumbers": [
+      89,
+      144,
+      245,
+      303
+    ],
+    "documentSubkeys": [
+      {
+        "documentKey": "Bestimmungen / Anweisungen",
+        "documentNumbers": [
+          2,
+          28,
+          74,
+          137,
+          248,
+          264,
+          274,
+          285,
+          297
+        ],
+        "documentSubkeys": []
+      },
+      {
+        "documentKey": "Selbstzeugnisse",
+        "documentNumbers": [
+          64,
+          78,
+          109,
+          116,
+          269,
+          272,
+          282
+        ],
+        "documentSubkeys": []
+      }
+    ]
+  }
+]
