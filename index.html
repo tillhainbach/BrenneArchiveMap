@@ -47,9 +47,9 @@
         <h1 class="leaflet-sidebar-header">
           <span class="leaflet-sidebar-close"><i class="fa fa-caret-right"></i></span>
         </h1>
-        <div class="documentTitle"></div>
-        <div class="documentLocation"></div>
-        <div class="documentNumber"></div>
+        <div class="title"></div>
+        <div class="year"></div>
+        <div class="number"></div>
 
       </div>
     </div>
@@ -101,11 +101,6 @@
       .addTo(map);
 
     // load GeoJson from file
-    function getdocumentKeysfromGeoJson(feature) {
-      var outTitle = feature.properties.documentKeys[0].documentSubkeys.join();
-      return outTitle;
-    }
-
     function startFilter(callback) {
       $.getJSON("data.geojson", callback);
     }
@@ -136,9 +131,9 @@
         layer.on('click', function(e) {
           map.setView(e.latlng);
           sidebar.open("home");
-          $(".documentTitle").html(feature.properties.documentTitle);
-          $(".documentLocation").html(feature.properties.documentLocation);
-          $(".documentNumber").html(feature.properties.documentNumber);
+          $(".title").html(feature.properties.title);
+          $(".year").html(feature.properties["BAUJAHR"]);
+          $(".number").html(feature.properties["PROBENNR."]);
         })
         layer.on('dblclick', function(e) {
           map.setView(e.latlng, tileLayer.options.maxZoom);
