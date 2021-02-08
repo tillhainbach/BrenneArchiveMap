@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567124,
-          13.35271
+          13.35271,
+          52.567124
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Klaus Mann",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -48,14 +48,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567124,
-          13.35271
+          13.35271,
+          52.567124
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -90,14 +90,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567124,
-          13.35271
+          13.35271,
+          52.567124
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -132,14 +132,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567325,
-          13.35268
+          13.35268,
+          52.567325
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -174,14 +174,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567325,
-          13.35268
+          13.35268,
+          52.567325
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -216,14 +216,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567325,
-          13.35268
+          13.35268,
+          52.567325
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -258,14 +258,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567088,
-          13.352499
+          13.352499,
+          52.567088
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -300,14 +300,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567088,
-          13.352499
+          13.352499,
+          52.567088
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -342,14 +342,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567088,
-          13.352499
+          13.352499,
+          52.567088
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -384,14 +384,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -426,14 +426,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -468,14 +468,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -510,14 +510,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -552,14 +552,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -594,14 +594,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
@@ -636,14 +636,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          52.567453,
-          13.352616
+          13.352616,
+          52.567453
         ]
       },
       "properties": {
-        "OBJEKT": "Wei\u00dfe Stadt Reinickendorf",
+        "title": "Wei\u00dfe Stadt Reinickendorf",
         "BAUJAHR": "1929-1931",
-        "ARCHITEKT": "Wilhelm B\u00fcning",
+        "architect": "Wilhelm B\u00fcning",
         "AUSF\u00dcHRUNG": "",
         "BAUHERR": "Gemeinn\u00fctzige Heimst\u00e4ttengesellschaft \"Primus\" mbH",
         "STADT - BEZIRK": "Berlin-Reinickendorf",
