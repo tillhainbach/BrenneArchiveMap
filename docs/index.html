@@ -3,16 +3,16 @@
 <head>
   <title>The Brenne Archiv!</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="leaflet.css" />
-  <link rel="stylesheet" href="MarkerCluster.css" />
-  <link rel="stylesheet" href="MarkerCluster.Default.css" />
-  <link rel="stylesheet" href="leaflet-sidebar.css" />
-  <link rel="stylesheet" href="leaflet-search.css" />
-  <script src="leaflet.js"></script>
-  <script src="leaflet.markercluster.js"></script>
-  <script src="jquery.min.js"></script>
-  <script src="leaflet-sidebar.js"></script>
-  <script src="leaflet-search.js"></script>
+  <link rel="stylesheet" href="./src/css/leaflet.css" />
+  <link rel="stylesheet" href="./src/css/MarkerCluster.css" />
+  <link rel="stylesheet" href="./src/css/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="./src/css/leaflet-sidebar.css" />
+  <link rel="stylesheet" href="./src/css/leaflet-search.css" />
+  <script src="./src/js/leaflet.js"></script>
+  <script src="./src/js/leaflet.markercluster.js"></script>
+  <script src="./src/js/jquery.min.js"></script>
+  <script src="./src/js/leaflet-sidebar.js"></script>
+  <script src="./src/js/leaflet-search.js"></script>
   <style>
     #map {
       height: 100%
@@ -102,7 +102,7 @@
 
     // load GeoJson from file
     function startFilter(callback) {
-      $.getJSON("data.geojson", callback);
+      $.getJSON("./resources/data.geojson", callback);
     }
 
     var data;
@@ -135,9 +135,9 @@
           $(".year").html(feature.properties["BAUJAHR"]);
           $(".number").html(feature.properties["PROBENNR."])
           $(".image").html(
-            $('<img>', {
-              id: 'theImg',
-              src: feature.properties["FOTO- DATEINAME "] + ".jpg"
+            $("<img>", {
+              id: "theImg",
+              src: "./resources/" + feature.properties["FOTO- DATEINAME "] + ".jpg"
             }).css({
               width: '300px',
               heigth: '150px'
