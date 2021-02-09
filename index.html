@@ -165,18 +165,15 @@
       //  _defaultFormatData: json => json,
       _getLocation: function(key) {
         markersLayer.clearLayers();
-        console.log(this._recordsCache);
-        loca = this._recordsCache.filter(function(obj) {
-          return obj.layer.options.title === key;
+        this._recordsCache.forEach((item, i) => {
+          markersLayer.addLayer(item.layer)
         });
-        console.log(loca)
-        for (i in loca) {
-          markersLayer.addLayer(loca[i].layer);
-        }
+
         // marker = new L.Marker(new L.latLng(loca));
         // marker.bindPopup('title: ');
         // map.addLayer(marker);
-        return loca[0].loc;
+        const _latlng = this._recordsCache[0].layer._latlng;
+        return [_latlng.lat, _latlng.lng];
       },
     })
 
