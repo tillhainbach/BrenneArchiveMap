@@ -109,7 +109,7 @@
     startFilter(function(json) {
       data = json;
       var documentIcon = L.icon({
-        iconUrl: './resources/document.png',
+        iconUrl: 'document.png',
         iconSize: [30, 30]
       });
 
@@ -118,7 +118,7 @@
         onEachFeature: onEachFeature,
         pointToLayer: function(feature, latlng) {
           var marker = L.marker(latlng, {
-            title: getdocumentKeysfromGeoJson(feature),
+            title: feature.properties.title,
             icon: documentIcon
           });
           marker.bindPopup(marker.options.title);
