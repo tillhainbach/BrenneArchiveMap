@@ -64,19 +64,24 @@
     map.doubleClickZoom.disable();
 
     // load a tile layer
-    var tileLayer = L.tileLayer(
-      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        "attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.",
-        "detectRetina": false,
-        "maxNativeZoom": 18,
-        "maxZoom": 15,
-        "minZoom": 5,
-        "noWrap": false,
-        "opacity": 1,
-        "subdomains": "abc",
-        "tms": false
-      }
-    ).addTo(map);
+    // var Stadia_AlidadeSmoothDark
+    var tileLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+      maxZoom: 10,
+      minZoom: 5,
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);;
+    // var tileLayer = L.tileLayer(
+    //   "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    //     "attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.",
+    //     "detectRetina": false,
+    //     "maxNativeZoom": 18,
+    //     "maxZoom": 15,
+    //     "noWrap": false,
+    //     "opacity": 1,
+    //     "subdomains": "abc",
+    //     "tms": false
+    //   }
+    // )
 
     // add a layer group, yet empty
     var markersLayer = new L.LayerGroup();
