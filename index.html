@@ -50,7 +50,7 @@
         <div class="title"></div>
         <div class="year"></div>
         <div class="number"></div>
-
+        <div class="image"></div>
       </div>
     </div>
   </div>
@@ -133,7 +133,15 @@
           sidebar.open("home");
           $(".title").html(feature.properties.title);
           $(".year").html(feature.properties["BAUJAHR"]);
-          $(".number").html(feature.properties["PROBENNR."]);
+          $(".number").html(feature.properties["PROBENNR."])
+          $(".image").html(
+            $('<img>', {
+              id: 'theImg',
+              src: feature.properties["FOTO- DATEINAME "] + ".jpg"
+            }).css({
+              width: '300px',
+              heigth: '150px'
+            }));
         })
         layer.on('dblclick', function(e) {
           map.setView(e.latlng, tileLayer.options.maxZoom);
